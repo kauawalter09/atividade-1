@@ -1,0 +1,63 @@
+void informações() {
+  var nome = "Kauã Walter";
+  var idade = 15;
+  var endereco = "Rua bahia, 59";
+
+  print(nome+ " " +endereco);
+   
+  
+  }
+   
+
+
+void main() {
+  var valorEntrada = 20;
+  var pessoas = 4;
+ 
+  var valorTotal = valorEntrada * pessoas;
+  
+  print(valorTotal);
+  
+}
+
+
+void main() {
+  
+  int baseMaior = 10;
+  int baseMenor = 6;
+  int altura = 9;
+  
+  double area = ((baseMaior + baseMenor)* altura) / 2;
+    
+  print("$area");
+}
+
+void main() {
+   var altura = 4;
+   var base = 4;
+  
+  var area = altura * base;
+  
+  print(area);
+}
+
+
+void main() {
+  List nomes = ["Monica", "Chico", "Cebolinha"];
+
+print(nomes);
+
+var outroNome = "Chico";
+
+
+if(nomes.contains(outroNome)) {
+   
+	print("É a mesma pessoa");
+ 
+} else {
+    
+	print("Os nomes não conferem");
+ }
+  
+
+}
